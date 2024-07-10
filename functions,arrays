@@ -1,0 +1,27 @@
+// Arrays
+let num = [123,456,789];
+let schools = ["RI","ASR","EJC"];
+
+console.log(schools.length);
+schools.push("BAM")
+console.log(schools)
+schools.pop()
+console.log(schools)
+
+
+// Object(like dictionaries in Python)
+let person = { 
+    name:"Jun Xiong",
+    age:17,
+    isStudent = true
+}
+
+console.log(person["name"]);
+console.log(person.name)
+
+// Functions
+function cube(x) {
+    rturn x **3 ; 
+}
+
+}
