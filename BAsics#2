@@ -1,0 +1,45 @@
+let firstName = "Andrew";
+let lastName = "Tay";
+let fullName = firstName + " " + lastName;
+let nameLength = fullName.length
+console.log(fullName + ",Length = " + nameLength);
+
+let language = "JavaScript";
+console.log(language[0]);
+console.log(language.substring(2,5));
+consolelog(language.toUpperCase());
+
+// if...else
+let age = 20;
+
+if (age <= 12){
+    console.log("Hello kid!");
+    
+} 
+else if (age<= 18){
+    console.log("you too old kiddo");
+}
+else{
+    console.log("Close enough, welcome back david goggins")
+}
+
+//FOr loop
+let fruits = ["orange","apple","pear","watermelon"];
+
+for (let i = 0; i < fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+//Alternative method
+for (let fruit of fruits){
+    console.log(fruits);
+}
+
+//while loop
+let counter = 10;
+while (counter > 0){
+    console.log(counter);
+    counter--;
+}
+
+}
